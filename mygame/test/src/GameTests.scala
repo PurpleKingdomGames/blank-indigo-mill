@@ -1,14 +1,8 @@
-import utest._
 
-object GameTests extends TestSuite {
+class GameTests extends munit.FunSuite {
 
-  val tests: Tests =
-    Tests {
-
-      "This test will pass" - {
-        1 ==> 1
-      }
-
-    }
+  test("This test will pass") {
+    assert(1 == 1)
+  }
 
 }
