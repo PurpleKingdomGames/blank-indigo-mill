@@ -45,6 +45,8 @@ object mygame extends ScalaJSModule with MillIndigo {
 
   def scalacOptions = super.scalacOptions() ++ ScalacOptions.compile
 
+  override def useECMAScript2015 = T(true)
+
   object test extends Tests {
     def ivyDeps = Agg(
       ivy"org.scalameta::munit::0.7.29"
