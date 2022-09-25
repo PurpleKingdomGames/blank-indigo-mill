@@ -1,5 +1,5 @@
-// import indigo._
-// import indigo.scenes._
+// import indigo.*
+// import indigo.scenes.*
 // import scala.scalajs.js.annotation.JSExportTopLevel
 
 // @JSExportTopLevel("IndigoGame")
@@ -57,17 +57,17 @@
 //   val subSystems: Set[SubSystem] =
 //     Set()
 
-//   def updateModel(context: FrameContext[Unit], model: Unit): GlobalEvent => Outcome[Unit] =
+//   def updateModel(context: SceneContext[Unit], model: Unit): GlobalEvent => Outcome[Unit] =
 //     _ => Outcome(model)
 
 //   def updateViewModel(
-//       context: FrameContext[Unit],
+//       context: SceneContext[Unit],
 //       model: Unit,
 //       viewModel: Unit
 //   ): GlobalEvent => Outcome[Unit] =
 //     _ => Outcome(viewModel)
 
-//   def present(context: FrameContext[Unit], model: Unit, viewModel: Unit): Outcome[SceneUpdateFragment] =
+//   def present(context: SceneContext[Unit], model: Unit, viewModel: Unit): Outcome[SceneUpdateFragment] =
 //     Outcome(SceneUpdateFragment.empty)
 
 // }
