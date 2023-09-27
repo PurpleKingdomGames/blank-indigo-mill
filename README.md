@@ -13,13 +13,13 @@ There are three source classes, one for each project type. The sandbox one is ac
 The easiest way to run the game is with the following command:
 
 ```bash
-mill mygame.runGame
+./mill mygame.runGame
 ```
 
 Alternatively, assuming you have [Mill](http://www.lihaoyi.com/mill/) and http-server set up as the [set up guide](https://indigoengine.io/docs/quickstart/setup-and-configuration) suggests, to run the demo, do the following from your command line:
 
 ```bash
-mill mygame.buildGame
+./mill mygame.buildGame
 ```
 
 Which will generate output similar to:
